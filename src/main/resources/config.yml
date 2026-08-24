@@ -1,0 +1,16 @@
+# Unseen configuration
+# Broadcast a normal leave message when someone vanishes (and a join message on unvanish)
+fake-quit-join-messages: true
+# Suppress the real join/quit messages of players who are vanished
+silent-join-quit: true
+# Vanished players cannot pick up items
+no-pickup: true
+# Mobs do not target vanished players
+no-mob-target: true
+# Vanished players take no damage
+invulnerable: true
+# Action bar reminder while vanished
+actionbar: '<gray>You are <green>vanished</green></gray>'
+messages:
+  vanished: '<green>You are now vanished.</green>'
+  visible: '<yellow>You are visible again.</yellow>'

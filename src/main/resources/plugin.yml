@@ -1,0 +1,16 @@
+name: Unseen
+version: '${version}'
+main: dev.unseen.UnseenPlugin
+api-version: '1.21'
+description: Lightweight staff vanish. Silent joins, fake leave messages, mob and pickup protection, persistent across relogs.
+commands:
+  vanish:
+    description: Toggle vanish
+    aliases: [v, unseen]
+    permission: unseen.use
+permissions:
+  unseen.use:
+    default: op
+  unseen.see:
+    description: See vanished players
+    default: op
